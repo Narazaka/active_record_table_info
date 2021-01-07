@@ -7,8 +7,9 @@ Gem::Specification.new do |spec|
   spec.version       = ActiveRecordTableInfo::VERSION
   spec.authors       = ['Narazaka']
   spec.email         = ['info@narazaka.net']
+  spec.licenses      = ['Zlib']
 
-  spec.summary       = 'User.table_info shows columns and indexes like `SHOW CREATE TABLE`'
+  spec.summary       = '`User.table_info` shows columns and indexes like `SHOW CREATE TABLE`'
   spec.homepage      = 'https://github.com/Narazaka/active_record_table_info'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.4.0')
 
