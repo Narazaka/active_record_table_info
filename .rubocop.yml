@@ -1,10 +1,13 @@
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
+require:
+  - rubocop-rails
+  - rubocop-minitest
+  - rubocop-rake
+  - rubocop-performance
 
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
+AllCops:
+  TargetRubyVersion: 2.4
+  TargetRailsVersion: 6.0
+  NewCops: enable
 
-Layout/LineLength:
-  Max: 120
+Rails:
+  Enabled: true
