@@ -1,5 +1,8 @@
 # ActiveRecordTableInfo
 
+[![Actions Status](https://github.com/Narazaka/active_record_table_info/workflows/Ruby/badge.svg)](https://github.com/Narazaka/active_record_table_info/actions)
+[![Gem Version](https://badge.fury.io/rb/active_record_table_info.svg)](https://badge.fury.io/rb/active_record_table_info)
+
 `User.table_info` shows columns and indexes like `SHOW CREATE TABLE`
 
 ## Installation
